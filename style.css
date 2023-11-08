@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
     *{
         width: 100%;
     }
@@ -29,6 +29,7 @@ nav{
     list-style-type: none;
 }
 .nav-links li a{
+    text-align: right;
     font-size: 25px;
     text-decoration: none;
     color: black;
@@ -40,6 +41,8 @@ nav{
 }
 .row{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .col-1{
     justify-content: center;
@@ -49,9 +52,11 @@ nav{
     font-size: larger;
 }
 .col-2 img {
-    width: 400px;
-    margin-left: 90px;
-    margin-top: 60px;
+    max-width: 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .column{
     justify-content: right;
@@ -65,27 +70,35 @@ nav{
 .about h2{
     font-size: larger;
 }
-.about institusion about{
-    margin-top: 10px;
+.about p{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 2%;
 }
 footer{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 3%;
+
 }
 .footerline{
-    width: 100%;
+    max-width: 100%;
     height: 1px;
     background-color: #000;
 }
 .socialmedia{
-    display: flex;
+    padding: 1%;
+    font-size-adjust: 100%;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 .socialmedia i{
+    font-size: max(5px 5px);
+    align-items: center;
+    justify-content: space-around;
     font-size: 20px;
     color: #000;
     margin: 10px;
@@ -98,8 +111,9 @@ footer{
     flex-direction: column;
 }
 .column1 img{
+    padding: 2%;
     align-items: center;
-    width: 250px;
+    max-width: 250px;
 }
 .column2 h1{
     font-family: 'Times New Roman', Times, serif    ;
