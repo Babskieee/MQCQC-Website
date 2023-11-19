@@ -19,14 +19,15 @@ main{
 nav{
     display: flex;
     align-items: center;
+    justify-content: center;
     justify-content: space-between;
     padding: 1%;
     background-color: transparent;
-    filter: drop-shadow(1px 1px 1px #000);
 }
 .nav-links ul{
     display: flex;
     list-style-type: none;
+    text-align: right;
 }
 .nav-links li a{
     text-align: right;
@@ -44,15 +45,8 @@ nav{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.col-1{
-    justify-content: center;
-    align-items: center;
-    margin-top: 250px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
-}
-.col-2 img {
-    max-width: 100%;
+.row-1 img {
+    max-width: 50%;
     padding: 5%;
     display: flex;
     justify-content: center;
@@ -104,7 +98,6 @@ footer{
     margin: 10px;
 }
 .enrollment-container{
-    
     display: flex;
     padding: 3%;
     align-items: center;
@@ -113,7 +106,9 @@ footer{
 }
 .column1 img{
     padding: 2%;
+    display: flex;
     align-items: center;
+    justify-content: center;
     max-width: 250px;
 }
 .column2{
@@ -125,4 +120,20 @@ footer{
     width: 1000px;
     max-width: 100%;
     min-height: 250px;
+}
+.column2 h1{
+    display: flex;
+    padding: 2%;
+}
+.column2 label{
+    display: flex;
+    
+    padding: 1px;
+}
+.column2 input{
+    height: 20px;
+}
+.column2 button{
+    background-color: #00d4ff;
+    color: #fff;
 }
