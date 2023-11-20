@@ -10,7 +10,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 body{
-    background: #00d4ff;
+    background: #FBEBD9;
 }
 main{
     width: 100%;
@@ -21,8 +21,11 @@ nav{
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-    padding: 1%;
+    padding: 2%;
     background-color: transparent;
+}
+nav img{
+    max-width: 75px;
 }
 .nav-links ul{
     display: flex;
@@ -46,18 +49,10 @@ nav{
     justify-content: space-around;
 }
 .row-1 img {
-    max-width: 50%;
-    padding: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.column{
-    justify-content: right;
+    max-width: 100%;
 }
 .about{
-    justify-content: right;
-    margin-top: 115px;
+    padding: 2%;
     position: relative;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -71,11 +66,9 @@ nav{
     padding: 2%;
 }
 footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
+    bottom: 0;
+    width: 100%;
+    height: 60px;
 }
 .footerline{
     max-width: 100%;
@@ -95,7 +88,7 @@ footer{
     justify-content: space-around;
     font-size: 20px;
     color: #000;
-    margin: 10px;
+    padding: 1%;
 }
 .enrollment-container{
     display: flex;
@@ -136,4 +129,12 @@ footer{
 .column2 button{
     background-color: #00d4ff;
     color: #fff;
+    text-align: center;
+    padding: 6px;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
