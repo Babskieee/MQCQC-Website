@@ -76,6 +76,7 @@ footer{
     background-color: #000;
 }
 .socialmedia{
+    text-wrap: wrap;
     padding: 1%;
     font-size-adjust: 100%;
     flex-direction: column;
